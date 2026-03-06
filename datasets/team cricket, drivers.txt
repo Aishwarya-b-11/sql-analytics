@@ -1,0 +1,28 @@
+Note: This mini sample dataset only for understanding not redistribution
+
+Team:
+columns - 
+Team_1 
+Team_2 
+Winner
+
+values eg:
+India ,SL , India
+SL, Aus, Aus
+SA,'Eng, Eng
+Eng,'NZ, NZ
+Aus,'India ,India
+
+
+Drivers:
+table column - 
+id, start_time, end_time, start_loc, end_loc
+
+eg values:
+dri_1, 09:00, 09:30, a, b.
+dri_1, 09:30, 10:30, b, c.
+dri_1, 11:00, 11:30, d, e.
+dri_1, 12:00, 12:30, f, g.
+dri_1, 13:30, 14:30, c, h.
+dri_2, 12:15, 12:30, f, g.
+dri_2, 13:30, 14:30, c, h.

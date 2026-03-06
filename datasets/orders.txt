@@ -1,0 +1,52 @@
+Note: This mini sample dataset only for understanding not redistribution
+
+CREATE TABLE DAY3_Orders_Returns.dbo.orders(
+	[row_id] [float] NULL,
+	[order_id] [nvarchar](255) NULL,
+	[order_date] [datetime] NULL,
+	[ship_date] [datetime] NULL,
+	[ship_mode] [nvarchar](255) NULL,
+	[customer_id] [nvarchar](255) NULL,
+	[customer_name] [nvarchar](255) NULL,
+	[segment] [nvarchar](255) NULL,
+	[country] [nvarchar](255) NULL,
+	[city] [nvarchar](255) NULL,
+	[state] [nvarchar](255) NULL,
+	[postal_code] [float] NULL,
+	[region] [nvarchar](255) NULL,
+	[product_id] [nvarchar](255) NULL,
+	[category] [nvarchar](255) NULL,
+	[sub_category] [nvarchar](255) NULL,
+	[product_name] [nvarchar](255) NULL,
+	[sales] [float] NULL,
+	[quantity] [float] NULL,
+	[discount] [float] NULL,
+	[profit] [float] NULL
+) 
+;
+insert into orders values(1364,'US-2021-155425','2021-11-10','2021-11-11','First Class','AB-10600','Ann Blume','Corporate','United States','Tucson','Arizona','85705','West','OFF-BI-10001036','Office Supplies','Binders','Cardinal EasyOpen D-Ring Binders',38.388,14,0.7,-25.592);
+insert into orders values(1365,'US-2021-155425','2021-11-10','2021-11-11','First Class','AB-10600','Ann Blume','Corporate','United States','Tucson','Arizona','85705','West','TEC-MA-10003183','Technology','Machines','DYMO CardScan Personal V9 Business Card Scanner',95.994,2,0.7,-63.996);
+insert into orders values(1366,'US-2021-155425','2021-11-10','2021-11-11','First Class','AB-10600','Ann Blume','Corporate','United States','Tucson','Arizona','85705','West','TEC-AC-10001314','Technology','Accessories','Case Logic 2.4GHz Wireless Keyboard',239.952,6,0.2,-35.9928);
+insert into orders values(1367,'US-2021-155425','2021-11-10','2021-11-11','First Class','AB-10600','Ann Blume','Corporate','United States','Tucson','Arizona','85705','West','TEC-PH-10002563','Technology','Phones','Adtran 1202752G1',201.584,2,0.2,15.1188);
+insert into orders values(1368,'US-2021-155425','2021-11-10','2021-11-11','First Class','AB-10600','Ann Blume','Corporate','United States','Tucson','Arizona','85705','West','FUR-CH-10003312','Furniture','Chairs','Hon 2090 “Pillow Soft” Series Mid Back Swivel/Tilt Chairs',899.136,4,0.2,-146.11);
+insert into orders values(1369,'CA-2021-133249','2021-07-08','2021-07-11','First Class','SZ-20035','Sam Zeldin','Home Office','United States','Pico Rivera','California','90660','West','FUR-FU-10001588','Furniture','Furnishings','Deflect-o SuperTray Unbreakable Stackable Tray, Letter, Black',145.9,5,0,62.737);
+insert into orders values(1370,'US-2019-103471','2019-12-24','2019-12-28','Standard Class','JR-15670','Jim Radford','Consumer','United States','Colorado Springs','Colorado','80906','West','FUR-BO-10002613','Furniture','Bookcases','Atlantic Metals Mobile 4-Shelf Bookcases, Custom Colors',590.058,7,0.7,-786.744);
+insert into orders values(1371,'US-2019-103471','2019-12-24','2019-12-28','Standard Class','JR-15670','Jim Radford','Consumer','United States','Colorado Springs','Colorado','80906','West','OFF-AR-10003405','Office Supplies','Art','Dixon My First Ticonderoga Pencil, #2',14.04,3,0.2,1.5795);
+insert into orders values(1372,'CA-2021-136672','2021-03-07','2021-03-12','Standard Class','MG-17890','Michael Granlund','Home Office','United States','Clinton','Maryland','20735','East','TEC-AC-10004510','Technology','Accessories','Logitech Desktop MK120 Mouse and keyboard Combo',49.08,3,0,4.908);
+insert into orders values(1373,'US-2018-157021','2018-04-01','2018-04-06','Second Class','KM-16720','Kunst Miller','Consumer','United States','Vallejo','California','94591','West','OFF-LA-10002312','Office Supplies','Labels','Avery 490',29.6,2,0,14.8);
+insert into orders values(1374,'US-2018-157021','2018-04-01','2018-04-06','Second Class','KM-16720','Kunst Miller','Consumer','United States','Vallejo','California','94591','West','OFF-BI-10000042','Office Supplies','Binders','Pressboard Data Binder, Crimson, 12" X 8 1/2"',17.088,4,0.2,5.5536);
+insert into orders values(1375,'CA-2019-120362','2019-09-14','2019-09-19','Standard Class','CA-12265','Christina Anderson','Consumer','United States','Provo','Utah','84604','West','FUR-TA-10003008','Furniture','Tables','Lesro Round Back Collection Coffee Table, End Table',912.75,5,0,118.658);
+insert into orders values(1376,'CA-2018-126361','2018-08-04','2018-08-09','Second Class','VD-21670','Valerie Dominguez','Consumer','United States','Pleasant Grove','Utah','84062','West','OFF-AP-10003590','Office Supplies','Appliances','Hoover WindTunnel Plus Canister Vacuum',1089.75,3,0,305.13);
+insert into orders values(1377,'CA-2018-126361','2018-08-04','2018-08-09','Second Class','VD-21670','Valerie Dominguez','Consumer','United States','Pleasant Grove','Utah','84062','West','OFF-PA-10000806','Office Supplies','Paper','Xerox 1934',447.84,8,0,219.442);
+insert into orders values(1378,'CA-2018-126361','2018-08-04','2018-08-09','Second Class','VD-21670','Valerie Dominguez','Consumer','United States','Pleasant Grove','Utah','84062','West','OFF-AR-10000896','Office Supplies','Art','Newell 329',16.4,5,0,4.264);
+insert into orders values(1379,'CA-2018-126361','2018-08-04','2018-08-09','Second Class','VD-21670','Valerie Dominguez','Consumer','United States','Pleasant Grove','Utah','84062','West','TEC-PH-10002310','Technology','Phones','Panasonic KX T7731-B Digital phone',399.96,5,0.2,34.9965);
+insert into orders values(1380,'CA-2018-126361','2018-08-04','2018-08-09','Second Class','VD-21670','Valerie Dominguez','Consumer','United States','Pleasant Grove','Utah','84062','West','OFF-ST-10002289','Office Supplies','Storage','Safco Wire Cube Shelving System, For Use as 4 or 5 14" Cubes, Black',158.9,5,0,7.945);
+insert into orders values(1381,'CA-2018-126361','2018-08-04','2018-08-09','Second Class','VD-21670','Valerie Dominguez','Consumer','United States','Pleasant Grove','Utah','84062','West','OFF-BI-10002852','Office Supplies','Binders','Ibico Standard Transparent Covers',13.184,1,0.2,4.7792);
+insert into orders values(8331,'CA-2021-113572','2021-11-07','2021-11-11','Standard Class','FP-14320','Frank Preis','Consumer','United States','New York City','New York','10024','East','TEC-AC-10002370','Technology','Accessories','Maxell CD-R Discs',7.88,4,0,2.5216);
+insert into orders values(1382,'US-2020-100566','2020-09-03','2020-09-09','Standard Class','JK-16120','Julie Kriz','Home Office','United States','Aurora','Illinois','60505','Central','FUR-FU-10003394','Furniture','Furnishings','Tenex "The Solids" Textured Chair Mats',83.952,3,0.6,-90.2484);
+insert into orders values(1383,'US-2020-108504','2020-02-05','2020-02-05','Same Day','PP-18955','Paul Prost','Home Office','United States','Smyrna','Georgia','30080','South','OFF-ST-10002344','Office Supplies','Storage','Carina 42"Hx23 3/4"W Media Storage Unit',80.98,1,0,1.6196);
+insert into orders values(1384,'US-2020-108504','2020-02-05','2020-02-05','Same Day','PP-18955','Paul Prost','Home Office','United States','Smyrna','Georgia','30080','South','OFF-PA-10001289','Office Supplies','Paper','White Computer Printout Paper by Universal',348.84,9,0,170.932);
+insert into orders values(1385,'US-2020-108504','2020-02-05','2020-02-05','Same Day','PP-18955','Paul Prost','Home Office','United States','Smyrna','Georgia','30080','South','OFF-FA-10000053','Office Supplies','Fasteners','Revere Boxed Rubber Bands by Revere',9.45,5,0,0.189);
+insert into orders values(1386,'US-2020-108504','2020-02-05','2020-02-05','Same Day','PP-18955','Paul Prost','Home Office','United States','Smyrna','Georgia','30080','South','FUR-FU-10004091','Furniture','Furnishings','Eldon 200 Class Desk Accessories, Black',18.84,3,0,7.1592);
+insert into orders values(8317,'CA-2018-161508','2018-07-12','2018-07-16','Standard Class','PV-18985','Paul Van Hugh','Home Office','United States','League City','Texas','77573','Central','OFF-PA-10001804','Office Supplies','Paper','Xerox 195',16.032,3,0.2,5.6112);
+insert into orders values(8318,'CA-2021-130904','2021-04-11','2021-04-16','Standard Class','HM-14980','Henry MacAllister','Consumer','United States','Burlington','North Carolina','27217','South','OFF-AR-10000422','Office Supplies','Art','Pencil and Crayon Sharpener',1.752,1,0.2,0.1533);

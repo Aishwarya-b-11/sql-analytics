@@ -1,0 +1,75 @@
+Note: This mini sample dataset only for understanding not redistribution
+
+Product review table:
+columns:
+review_id
+product_id 
+review_text 
+
+values: 
+1, 101, A good product
+2, 102, This product is Amazing
+3, 103, Not an excellent product
+4, 104, The quality is Excellent
+5, 105, Average quality
+6, 106, This is not an amazing product
+7, 107, This product is not Excellent
+8, 108, I did not find it excellent.
+9, 109, The product is not amazing
+10, 110, An excellent product, not amazing
+
+
+Category Sales 1:
+table sales
+columns:
+id,
+product_id2,
+category,
+amount,
+order_date
+
+values:
+1, 101, Books, 1500, 2023-02-05
+2, 102, Electronics, 2000, 2023-02-10
+3, 103, Clothing, 500, 2023-02-15
+4, 104, Books, 800, 2023-02-20
+5, 105, Clothing, 300, 2024-02-02
+6, 106, Electronics, 1800, 2024-03-08
+7, 107, Clothing, 600, 2024-03-15
+8, 108, Books, 400, 2025-03-20
+9, 109, Electronics, 2200, 2025-04-05
+10, 110, Clothing, 700, 2025-04-10
+
+
+Category Sales 2:
+table sales
+columns:
+sale_id
+category_id
+amount2
+sale_date
+
+values:
+insert into sales62 values
+1, 1, 500, 2023-01-05
+2, 1, 800, 2023-02-10
+4, 3, 200, 2023-02-20
+5, 3, 150, 2023-03-01
+6, 4, 400, 2023-02-25
+7, 4, 600, 2024-03-05
+20, 5, 250, 2024-04-01
+21, 6, 100, 2024-05-01
+22, 7, 200, 2024-05-02
+
+
+table category
+columns:
+category_id
+category_name
+
+values
+1, Books
+2, Clothing
+3, Electronics
+4, Home
+5, Stationery

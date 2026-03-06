@@ -1,0 +1,37 @@
+Note: This mini sample dataset only for understanding not redistribution
+
+table products
+id int,
+name varchar(20),
+category varchar(10),
+price int
+
+values
+(1, 'Cripps Pink', 'apple', 100),
+(2, 'Navel Orange', 'orange', 120),
+(3, 'Golden Delicious', 'apple', 60),
+(4, 'Clementine', 'orange', 140),
+(5, 'Pinot Noir', 'grape', 200),
+(6, 'Bing Cherries', 'cherry', 360),
+(7, 'Sweet Cherries', 'cherry', 400),
+(8, 'Banana Premium', 'banana', 80),
+(9, 'Banana Regular', 'banana', 120),
+(10, 'Green Apple', 'apple', 900)...
+
+table purchases
+id int,
+product_id int,
+stars int
+
+values
+(1, 1, 2),
+(2, 3, 3),
+(3, 2, 2),
+(4, 4, 4),
+(5, 6, 5),
+(6, 6, 4),
+(7, 7, 5),
+(8, 8, 5),
+(9, 9, 2),
+(10, 10, 1),
+(11, 11, 3)...
